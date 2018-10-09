@@ -1,4 +1,7 @@
 <keymap version="1" name="Default copy" parent="$default">
+  <action id="CheckinProject">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="c" />
+  </action>
   <action id="Console.TableResult.ColumnsList" />
   <action id="Console.TableResult.EditFilterCriteria" />
   <action id="ContextHelp" />
@@ -15,6 +18,13 @@
   <action id="FileStructurePopup" />
   <action id="Git.Fetch">
     <keyboard-shortcut first-keystroke="shift ctrl alt f" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="f" />
+  </action>
+  <action id="Git.Stash">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="s" />
+  </action>
+  <action id="Git.Unstash">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="u" />
   </action>
   <action id="RiderUnitTestDebugContextAction">
     <keyboard-shortcut first-keystroke="ctrl t" second-keystroke="d" />
@@ -24,7 +34,13 @@
   </action>
   <action id="ToggleBookmark8" />
   <action id="UML.ShowStructure" />
-  <action id="Vcs.UpdateProject" />
+  <action id="Vcs.Push">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="p" />
+    <keyboard-shortcut first-keystroke="shift ctrl k" />
+  </action>
+  <action id="Vcs.UpdateProject">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="l" />
+  </action>
   <action id="VcsShowNextChangeMarker">
     <keyboard-shortcut first-keystroke="shift ctrl alt down" />
     <keyboard-shortcut first-keystroke="f1" />
@@ -32,5 +48,8 @@
   <action id="VcsShowPrevChangeMarker">
     <keyboard-shortcut first-keystroke="shift ctrl alt up" />
     <keyboard-shortcut first-keystroke="shift f1" />
+  </action>
+  <action id="hg4idea.branches">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="b" />
   </action>
 </keymap>
