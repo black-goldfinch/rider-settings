@@ -1,4 +1,8 @@
 <keymap version="1" name="Default copy" parent="$default">
+  <action id="ChangesView.Revert">
+    <keyboard-shortcut first-keystroke="ctrl alt z" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="r" />
+  </action>
   <action id="CheckinProject">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="c" />
   </action>
@@ -16,6 +20,9 @@
   </action>
   <action id="ExternalJavaDoc" />
   <action id="FileStructurePopup" />
+  <action id="Git.Branches">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="b" />
+  </action>
   <action id="Git.Fetch">
     <keyboard-shortcut first-keystroke="shift ctrl alt f" />
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="f" />
@@ -48,8 +55,5 @@
   <action id="VcsShowPrevChangeMarker">
     <keyboard-shortcut first-keystroke="shift ctrl alt up" />
     <keyboard-shortcut first-keystroke="shift f1" />
-  </action>
-  <action id="hg4idea.branches">
-    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="b" />
   </action>
 </keymap>
