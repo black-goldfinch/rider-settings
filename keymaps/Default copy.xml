@@ -6,6 +6,13 @@
   <action id="CheckinProject">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="c" />
   </action>
+  <action id="CollapseAll">
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+  </action>
+  <action id="CollapseExpandableComponent">
+    <keyboard-shortcut first-keystroke="shift enter" />
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+  </action>
   <action id="Console.TableResult.ColumnsList" />
   <action id="Console.TableResult.EditFilterCriteria" />
   <action id="ContextHelp" />
@@ -32,6 +39,9 @@
   <action id="Git.Unstash">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="u" />
   </action>
+  <action id="Images.Editor.ZoomOut">
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+  </action>
   <action id="RiderUnitTestDebugContextAction">
     <keyboard-shortcut first-keystroke="ctrl t" second-keystroke="d" />
   </action>
@@ -40,6 +50,9 @@
   </action>
   <action id="ToggleBookmark8" />
   <action id="UML.ShowStructure" />
+  <action id="UML.ZoomOut">
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+  </action>
   <action id="Vcs.Push">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="p" />
     <keyboard-shortcut first-keystroke="shift ctrl k" />
